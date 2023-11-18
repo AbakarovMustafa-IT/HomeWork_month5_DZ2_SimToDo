@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.block {
+  background-color: rgb(98, 97, 97);
+  border-radius: 7px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 300px;
+  max-width: 450px;
+  position: absolute;
+  top: calc(50% - 150px);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  row-gap: 20px;
+}
+
+
+.block_btn {
+  display: flex;
+  gap: 10px;
+}
+
+.block_inc {
+  font-size: 40px;
+  width: 100px;
+  height: 60px;
+  background-color: rgb(83, 54, 180);
+  border-radius: 10px;
+}
+
+.block_dec {
+  font-size: 40px;
+  width: 100px;
+  height: 60px;
+  background-color: rgb(194, 134, 126);
+  border-radius: 10px;
+}
